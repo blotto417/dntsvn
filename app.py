@@ -44,7 +44,10 @@ if st.session_state["authenticated"]:
     table_options = {
         "Google Ads Ecom": "report_ecom_google_ads",
         "Facebook Ads Ecom": "report_ecom_facebook_ads",
-        "Tiktok Ads Ecom": "report_ecom_tiktok_ads"
+        "Tiktok Ads Ecom": "report_ecom_tiktok_ads",
+        "Lazada Discovery Campaign": "lazada_discovery_campaign_daily",
+        "Lazada Discovery KW": "lazada_discovery_kw_daily",
+        "Lazada Discovery Product": "lazada_discovery_product_daily"
     }
 
     with st.form("filter_form"):
